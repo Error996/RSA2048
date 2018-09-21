@@ -1,7 +1,7 @@
 /*****************************************************************************
 Filename    : rsa.h
 Author      : Terrantsh (tanshanhe@foxmail.com)
-Date        : 2018-9-20 11:22:22
+Date        : 2018-8-31 10:31:23
 Description : RSA加密头文件
 *****************************************************************************/
 #ifndef __RSA_H__
@@ -10,7 +10,7 @@ Description : RSA加密头文件
 #include <stdint.h>
 
 // RSA key lengths
-#define RSA_MAX_MODULUS_BITS                2048
+#define RSA_MAX_MODULUS_BITS                4096
 #define RSA_MAX_MODULUS_LEN                 ((RSA_MAX_MODULUS_BITS + 7) / 8)
 #define RSA_MAX_PRIME_BITS                  ((RSA_MAX_MODULUS_BITS + 1) / 2)
 #define RSA_MAX_PRIME_LEN                   ((RSA_MAX_PRIME_BITS + 7) / 8)

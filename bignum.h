@@ -1,7 +1,7 @@
 /*****************************************************************************
 Filename    : bignum.h
 Author      : Terrantsh (tanshanhe@foxmail.com)
-Date        : 2018-9-20 11:23:45
+Date        : 2018-8-31 10:31:23
 Description :
 *****************************************************************************/
 #ifndef __BIGNUM_H__
@@ -13,7 +13,7 @@ typedef uint64_t dbn_t;
 typedef uint32_t bn_t;
 
 #define BN_DIGIT_BITS               32      // For uint32_t
-#define BN_MAX_DIGITS               65      // RSA_MAX_MODULUS_LEN + 1
+#define BN_MAX_DIGITS              129      // RSA_MAX_MODULUS_LEN + 1
 
 #define BN_MAX_DIGIT                0xFFFFFFFF
 
